@@ -17,5 +17,3 @@ const eqArrays = function(arr1, arr2) {
   return
 };
 
-eqArrays([1, 2, 3], [1, 2, 3])
-eqArrays([1, 2, 3], [1, 2, 4])
