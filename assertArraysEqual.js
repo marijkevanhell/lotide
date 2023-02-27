@@ -1,4 +1,4 @@
-const eqArrays = function(arr1, arr2) {
+const assertArraysEquals = function(arr1, arr2) {
   let x = arr1.length
   let y = arr2.length
   if (x != y) {
