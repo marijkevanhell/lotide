@@ -16,7 +16,7 @@ const countOnly = function(allItems, itemsToCount) {
   //iterate through items
   for (const item of allItems) {
     //if item we want like Jason matches item Jason in array, add to new object list, else leave it
-    if (itemsToCount[item]) { 
+    if (itemsToCount[item]) {
       if (results[item]) {
         results[item] += 1;
       } else {
@@ -26,7 +26,7 @@ const countOnly = function(allItems, itemsToCount) {
     console.log(item);
   }
   return results;
-}
+};
 
 // test code
 const firstNames = [
