@@ -27,7 +27,7 @@ This project was created and published by me as part of my learnings at Lighthou
 The following functions are currently implemented:
 
 * `assertArraysEqual`: assertation for arrays
-* `assertEqual`: assertation
+* `assertEqual`: assertation for use
 * `assertObjectsEqual`: assertation for objects
 * `countLetters`: counts how many times letter appears in string
 * `countOnly`: counts how many times string appears in array
