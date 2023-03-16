@@ -16,16 +16,13 @@ const eqObjects = function(object1, object2) {
   for (let key of obj1lgth) {
     //check if both are arrays
     if (Array.isArray(object1[key]) && Array.isArray(object2[key])) {
-      console.log("#0")
       //if not, return false
       if (!eqArrays(object1[key], object2[key])){
-        console.log("#1")
         return false;
       }
     }
     //if value of entry in obj 1 at key doesn't match value of entry in obj 2 at key, return false
     else if (object1[key] !== object2[key]) {
-      console.log("#2")
       return false;
     }
   }
