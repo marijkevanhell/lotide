@@ -20,3 +20,5 @@ const obj3 = {model: 'Suzuki'};
 assertObjectsEqual(obj1, obj2);
 //should pass
 assertObjectsEqual(obj1, obj3);
+
+module.exports = assertObjectsEqual;

@@ -41,3 +41,5 @@ assertEqual(findKey(starNames, retrieveStarName1), "Blue Hill");
 assertEqual(findKey(starNames, retrieveStarName2), "noma");
 assertEqual(findKey(starNames, retrieveStarName3), "Akaleri");
 assertEqual(findKey(starNames, retrieveStarNameUndefined), undefined);
+
+module.exports = findKey;

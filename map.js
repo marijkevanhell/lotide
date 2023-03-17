@@ -21,3 +21,5 @@ assertArraysEqual(results1, ["g", "c", "t", "m"]);
 
 ///should fail
 assertArraysEqual(results1, []);
+
+module.exports = map;
