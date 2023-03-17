@@ -1,9 +1,7 @@
 const eqArrays = require('./eqArrays');
 const assertEqual = require('./assertEqual');
 
-//ACTUAL FUNCTION
-// Returns true if both objects have identical keys with identical values.
-// Otherwise you get back a big fat false!
+// Returns true if both objects have identical keys with identical values
 const eqObjects = function(object1, object2) {
   //getting keys from each object and counting how many
   let obj1lgth = Object.keys(object1);

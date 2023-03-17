@@ -1,7 +1,6 @@
 const eqArrays = require('./eqArrays');
 const assertArraysEqual = require('./assertArraysEqual');
 
-// ACTUAL FUNCTION
 const middle = function(array) {
   //if array is between 1-3 or index 0,1,2, return empty array
   if (array.length <= 2) {

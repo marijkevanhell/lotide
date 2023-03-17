@@ -5,5 +5,4 @@ const head = function(inputArray) {
   return firstElement;
 };
 
-module.exports = assertEqual;
 module.exports = head;

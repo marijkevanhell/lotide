@@ -1,6 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-//ACTUAL FUNCTION
 const findKeyByValue = function(object, value) {
   //iterates over bestTVShowsByGenre and Object.keys() returns keys from object
   for (let key of Object.keys(object)) {

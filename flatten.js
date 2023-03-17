@@ -1,11 +1,8 @@
 const assertArraysEqual = require('./assertArraysEqual');
 const eqArrays = require('./eqArrays');
 
-//ACTUAL FUNCTION
 const flatten = function(array1) {
-  //assign variable to new array
   let results = [];
-  //iterate through array1
   for (let x = 0; x < array1.length; x++) {
     // if element x in array1 is an array, add flattened version to new array called results
     if (Array.isArray(array1[x])) {

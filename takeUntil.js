@@ -1,11 +1,8 @@
 const assertArraysEqual = require('./assertArraysEqual');
 const eqArrays = require('./eqArrays');
 
-//ACTUAL FUNCTION
 const takeUntil = function(array, callback) {
-  //makes empty array
   const results = [];
-  //iterates through each item in the array
   for (let item of array) {
     //pushes items until callback function matches
     if (callback(item) === false) {

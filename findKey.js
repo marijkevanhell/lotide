@@ -1,6 +1,5 @@
 const assertEqual = require('./assertEqual');
 
-// ACTUAL FUNCTION
 const findKey = function(object, callback) {
   //iterates over starNames and Object.keys() returns keys from object
   for (let key of Object.keys(object)) {

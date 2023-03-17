@@ -1,11 +1,8 @@
 const assertArraysEqual = require('./assertArraysEqual');
 const eqArrays = require('./eqArrays');
 
-//ACTUAL FUNCTION
 const letterPositions = function(string) {
-  // make empty object
   const results = {};
-  //iterate through string
   for (let i = 0; i < string.length; i++) {
     let currentCharacter = string[i];
     // check that current character isn't a blank space

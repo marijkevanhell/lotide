@@ -15,5 +15,4 @@ const tail = function(inputArray) {
 };
 
 
-module.exports = assertEqual;
 module.exports = tail;

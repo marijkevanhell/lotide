@@ -1,11 +1,8 @@
 const assertArraysEqual = require('./assertArraysEqual');
 const eqArrays = require('./eqArrays');
 
-//ACTUAL FUNCTION
 const without = function(source, itemsToRemove) {
-  //assign variable to new array
   let newArray = [];
-  // iterate through source array
   for (let x = 0; x < source.length; x++) {
     // if itemsToRemove array does not match items in source array, push source array to newArray
     if (!itemsToRemove.includes(source[x])) {

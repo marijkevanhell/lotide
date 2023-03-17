@@ -1,8 +1,6 @@
 const assertEqual = require('./assertEqual');
 
-//ACTUAL FUNCTION
 const countLetters = function(sentence) {
-  //make empty object
   let finalSentence = {};
   //iterate through sentence
   for (const letter of sentence) {
